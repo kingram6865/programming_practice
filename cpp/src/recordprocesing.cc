@@ -21,19 +21,12 @@ using namespace std;
 int calculate(int a, int b, int c);
 
 int main (int argc, char *argv[]) {
-  // int batch = ((argv[1]) ? atoi(argv[1]) : 10);
-  // int interval = ((argv[2]) ? atoi(argv[2]) : 5);
-  // int total_records = ((argv[3]) ? atoi(argv[3]) : 10000);
   int batch = atoi(argv[1]);
   int interval = atoi(argv[2]);
   int total_records = atoi(argv[3]);
 
-  // printf("\nbatch: %d, interval: %d, Total Records: %d\n", batch, interval, total_records);
   calculate(batch, interval, total_records);
 
-  // if ((argv[1] == NULL) || (argv[2] == NULL) || (argv[3] == NULL)) {
-    
-  // }
   return 1;
 }
 
